@@ -1,10 +1,3 @@
-# client-template
+# Pet Sitting
 
-Serves as a template for client JavaScript applications.
-
-It uses:
-* Jade
-* Less
-* Grunt
-* JSHint
-* Node.js
+This is a program that simulates pet-sitting.
