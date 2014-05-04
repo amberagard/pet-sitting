@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+body {
+  background-image: url('../media/food.png');
+  font-family: 'Helvetica' sans-serif;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 45px;
+  font-family: 'Pacifico', cursive;
+}
+select {
+  margin-right: 10px;
+}
+input {
+  margin-right: 10px;
+}
+img {
+  height: 100px;
+}
+.pet {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+}
+div.pet {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.eat,
+.sleep,
+.play {
+  width: 50px;
+  height: 25px;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 10px;
+}
+#add {
+  width: 100px;
+  height: 25px;
+  border-radius: 20px;
+  background-color: white;
+}
+.eat:hover,
+.sleep:hover,
+.play:hover,
+#add:hover {
+  background-color: tomato;
+  color: white;
+}
+.outer {
+  height: 15px;
+  width: 180px;
+}
+.inner {
+  background-color: green;
+  height: 100%;
+}
+.pet.dead img {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+#controls {
+  margin-top: 20px;
+}
